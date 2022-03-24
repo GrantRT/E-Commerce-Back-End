@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
         },
         {
           model: Tag,
-          attributes: ['id', 'tag_name'], // not working yet, test once added tag routes
+          attributes: ['id', 'tag_name'],
         },
       ],
     });
